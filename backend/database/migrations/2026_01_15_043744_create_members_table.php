@@ -9,7 +9,7 @@ return new class extends Migration {
     {
         Schema::create('members', function (Blueprint $table) {
             $table->id();
-            $table->string('nis')->unique();
+            $table->string('nit')->unique();
             $table->string('nama');
             $table->string('kelas');
             $table->string('jurusan');
